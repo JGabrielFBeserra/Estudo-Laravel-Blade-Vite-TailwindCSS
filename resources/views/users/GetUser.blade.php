@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Usuário')
+@section('title', 'GetUser')
 
 @section('body')
     <section class="bg-gray-50 min-h-screen flex items-center justify-center px-0">

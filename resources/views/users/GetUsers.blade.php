@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Usuários')
+@section('title', 'GetUsers')
 
 @section('body')
     <section class="bg-gray-50 min-h-screen px-4 py-10">
