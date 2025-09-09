@@ -8,5 +8,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin', [UserController::class, 'getUsers']);
+Route::get('/usuarios', [UserController::class, 'users']);
+Route::get('/usuarios/{user}', [UserController::class, 'user']);
+Route::view('/contato', 'users.contato');
    
